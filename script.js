@@ -4,7 +4,7 @@ document.getElementById("btn").addEventListener("click", (e) => {
   e.preventDefault(); // Prevent form submission
 
   const name = document.getElementById('name');
-  const number = document.getElementById('number');
+  const number = document.getElementById('age');
 
   if (!name.value.trim() || !number.value.trim()) {
     alert("Please enter valid details.");
