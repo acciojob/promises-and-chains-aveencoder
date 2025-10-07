@@ -7,7 +7,7 @@ document.getElementById("btn").addEventListener("click", (e) => {
   const number = document.getElementById('age');
 
   if (!name.value.trim() || !number.value.trim()) {
-    alert("Please enter valid details.");
+    alert("Please enter valid details");
   } 
   new Promise((resolve,reject)=>{
        setTimeout(()=>{
